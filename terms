@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Terms &amp; Conditions — Matters</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --cream: #FAF8F4;
+      --ink: #1C1A17;
+      --muted: #7A7468;
+      --rule: #E5E0D8;
+      --accent: #B85C3A;
+      --max: 680px;
+    }
+
+    html { font-size: 17px; }
+
+    body {
+      background: var(--cream);
+      color: var(--ink);
+      font-family: 'Lora', Georgia, serif;
+      line-height: 1.75;
+      padding: 0 1.5rem;
+    }
+
+    header {
+      max-width: var(--max);
+      margin: 0 auto;
+      padding: 4rem 0 3rem;
+      border-bottom: 1px solid var(--rule);
+    }
+
+    .app-name {
+      font-family: 'DM Sans', sans-serif;
+      font-weight: 300;
+      font-size: 0.8rem;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 1rem;
+    }
+
+    h1 {
+      font-family: 'Lora', serif;
+      font-size: 2.2rem;
+      font-weight: 600;
+      line-height: 1.2;
+      color: var(--ink);
+      margin-bottom: 0.75rem;
+    }
+
+    .meta {
+      font-family: 'DM Sans', sans-serif;
+      font-size: 0.85rem;
+      color: var(--muted);
+      font-weight: 300;
+    }
+
+    main {
+      max-width: var(--max);
+      margin: 0 auto;
+      padding: 3rem 0 6rem;
+    }
+
+    .intro {
+      font-size: 1.05rem;
+      color: var(--muted);
+      font-style: italic;
+      margin-bottom: 3rem;
+      padding-bottom: 2.5rem;
+      border-bottom: 1px solid var(--rule);
+    }
+
+    section {
+      margin-bottom: 2.8rem;
+    }
+
+    h2 {
+      font-family: 'DM Sans', sans-serif;
+      font-size: 0.75rem;
+      font-weight: 500;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 0.8rem;
+    }
+
+    h3 {
+      font-family: 'Lora', serif;
+      font-size: 1.15rem;
+      font-weight: 600;
+      color: var(--ink);
+      margin-bottom: 0.6rem;
+      margin-top: 1.6rem;
+    }
+
+    h3:first-of-type { margin-top: 0; }
+
+    p {
+      margin-bottom: 1rem;
+      color: #2E2B26;
+    }
+
+    ul {
+      list-style: none;
+      margin: 0.5rem 0 1rem 0;
+    }
+
+    ul li {
+      padding: 0.25rem 0 0.25rem 1.4rem;
+      position: relative;
+      color: #2E2B26;
+    }
+
+    ul li::before {
+      content: '—';
+      position: absolute;
+      left: 0;
+      color: var(--muted);
+      font-size: 0.85rem;
+    }
+
+    .contact-block {
+      background: #F2EDE6;
+      border-left: 3px solid var(--accent);
+      padding: 1.5rem 1.8rem;
+      border-radius: 0 6px 6px 0;
+      margin-top: 1rem;
+    }
+
+    .contact-block p {
+      margin: 0;
+      font-family: 'DM Sans', sans-serif;
+      font-size: 0.92rem;
+      font-weight: 300;
+    }
+
+    .contact-block strong {
+      font-weight: 500;
+      display: block;
+      margin-bottom: 0.2rem;
+      font-size: 1rem;
+    }
+
+    .contact-block a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    .caps {
+      font-family: 'DM Sans', sans-serif;
+      font-size: 0.82rem;
+      font-weight: 400;
+      line-height: 1.7;
+      color: var(--muted);
+      background: #F2EDE6;
+      padding: 1.2rem 1.5rem;
+      border-radius: 6px;
+      margin-bottom: 1rem;
+    }
+
+    footer {
+      max-width: var(--max);
+      margin: 0 auto;
+      padding: 2rem 0 4rem;
+      border-top: 1px solid var(--rule);
+    }
+
+    footer p {
+      font-family: 'DM Sans', sans-serif;
+      font-size: 0.8rem;
+      color: var(--muted);
+      font-weight: 300;
+    }
+
+    footer a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <p class="app-name">Matters</p>
+  <h1>Terms &amp; Conditions</h1>
+  <p class="meta">Effective date: March 25, 2026</p>
+</header>
+
+<main>
+
+  <p class="intro">By downloading, installing, or using Matters, you agree to be bound by these Terms. Please read them carefully before using the app.</p>
+
+  <section>
+    <h2>01</h2>
+    <h3>Acceptance of Terms</h3>
+    <p>These Terms constitute a legally binding agreement between you ("you" or "user") and Zsolt Stelkovics ("we," "us," or "our"), the developer of Matters, governing your use of the Matters iOS application. By accessing or using the App, you confirm that you have read, understood, and agree to these Terms.</p>
+  </section>
+
+  <section>
+    <h2>02</h2>
+    <h3>Eligibility</h3>
+    <p>You must be at least 13 years of age to use Matters. By using the App, you represent and warrant that you are at least 13 years old. If you are under 18, you represent that your parent or legal guardian has reviewed and agreed to these Terms on your behalf.</p>
+  </section>
+
+  <section>
+    <h2>03</h2>
+    <h3>Description of the Service</h3>
+    <p>Matters is a personal mindfulness and journalling application that allows you to:</p>
+    <ul>
+      <li>Record and save meaningful moments from your daily life</li>
+      <li>Attach photos to your entries</li>
+      <li>Create and assign personal categories to your moments</li>
+      <li>Build a personal record of what matters most to you</li>
+    </ul>
+    <p>The App is designed for personal, non-commercial use as a tool for personal reflection and self-discovery.</p>
+  </section>
+
+  <section>
+    <h2>04</h2>
+    <h3>Your Account and iCloud</h3>
+    <p>Matters stores your data in your personal Apple iCloud account via Apple CloudKit. You are responsible for maintaining the security of your Apple ID and iCloud account. We are not responsible for any loss of data resulting from unauthorised access to your Apple account.</p>
+  </section>
+
+  <section>
+    <h2>05</h2>
+    <h3>User Content</h3>
+    <p>You retain full ownership of all content you create and enter into Matters, including text entries, photos, and categories ("User Content"). We do not claim any ownership rights over your User Content.</p>
+    <p>You are solely responsible for the User Content you create. You agree not to enter or store content that:</p>
+    <ul>
+      <li>Violates any applicable law or regulation</li>
+      <li>Infringes on the intellectual property rights of others</li>
+      <li>Contains malicious code or harmful software</li>
+      <li>Is intended to harass, harm, or deceive others</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>06</h2>
+    <h3>Intellectual Property</h3>
+    <p>All rights, title, and interest in and to the Matters application — including its design, code, features, logo, and all related intellectual property — are and remain the exclusive property of Zsolt Stelkovics.</p>
+    <p>You are granted a limited, non-exclusive, non-transferable, revocable licence to use the App on your Apple device for personal, non-commercial use, subject to these Terms and the Apple App Store Terms of Service.</p>
+  </section>
+
+  <section>
+    <h2>07</h2>
+    <h3>Acceptable Use</h3>
+    <p>You agree to use Matters only for lawful purposes. You agree not to:</p>
+    <ul>
+      <li>Attempt to reverse engineer, decompile, or disassemble the App</li>
+      <li>Use the App in any way that could damage, disable, or impair it</li>
+      <li>Attempt to gain unauthorised access to any systems connected to the App</li>
+      <li>Use the App for any commercial purpose without our express written consent</li>
+      <li>Reproduce, distribute, or create derivative works based on the App</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>08</h2>
+    <h3>Privacy</h3>
+    <p>Your use of Matters is also governed by our <a href="privacy-policy.html">Privacy Policy</a>, which is incorporated into these Terms by reference.</p>
+  </section>
+
+  <section>
+    <h2>09</h2>
+    <h3>Disclaimer of Warranties</h3>
+    <div class="caps">Matters is provided "as is" and "as available" without warranties of any kind, either express or implied. To the fullest extent permitted by applicable law, we disclaim all warranties, including implied warranties of merchantability, fitness for a particular purpose, and non-infringement. Matters is a personal journalling tool and is not a substitute for professional mental health, medical, or therapeutic advice or services.</div>
+  </section>
+
+  <section>
+    <h2>10</h2>
+    <h3>Limitation of Liability</h3>
+    <div class="caps">To the maximum extent permitted by applicable law, we shall not be liable for any indirect, incidental, special, consequential, or punitive damages, or any loss of data, profits, or goodwill, arising out of or in connection with your use of Matters. Our total liability to you shall not exceed the amount you paid for the App in the twelve months preceding the claim.</div>
+  </section>
+
+  <section>
+    <h2>11</h2>
+    <h3>Indemnification</h3>
+    <p>You agree to indemnify and hold harmless Zsolt Stelkovics from and against any claims, damages, losses, liabilities, costs, and expenses (including reasonable legal fees) arising out of or relating to your use of the App or violation of these Terms.</p>
+  </section>
+
+  <section>
+    <h2>12</h2>
+    <h3>Changes to the App and Terms</h3>
+    <p>We reserve the right to modify, suspend, or discontinue the App or any part of it at any time. We may also update these Terms at any time. Your continued use of the App after any changes constitutes your acceptance of the updated Terms.</p>
+  </section>
+
+  <section>
+    <h2>13</h2>
+    <h3>Termination</h3>
+    <p>These Terms remain in effect for as long as you use the App. You may stop using the App at any time by deleting it from your device. We reserve the right to suspend or terminate your access if we reasonably believe you have violated these Terms.</p>
+  </section>
+
+  <section>
+    <h2>14</h2>
+    <h3>Governing Law</h3>
+    <p>These Terms shall be governed by and construed in accordance with the laws of the Netherlands, without regard to its conflict of law provisions. Any disputes that cannot be resolved informally shall be submitted to the competent courts of Amsterdam, the Netherlands.</p>
+  </section>
+
+  <section>
+    <h2>15</h2>
+    <h3>Entire Agreement</h3>
+    <p>These Terms, together with the Privacy Policy, constitute the entire agreement between you and us with respect to the use of Matters and supersede all prior communications and proposals, whether written or oral.</p>
+  </section>
+
+  <section>
+    <h2>16</h2>
+    <h3>Contact Us</h3>
+    <p>If you have any questions about these Terms, please reach out:</p>
+    <div class="contact-block">
+      <strong>Zsolt Stelkovics</strong>
+      <p><a href="mailto:szs.steka@gmail.com">szs.steka@gmail.com</a></p>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <p>Last updated: March 25, 2026 &nbsp;·&nbsp; <a href="privacy-policy.html">Privacy Policy</a></p>
+</footer>
+
+</body>
+</html>
